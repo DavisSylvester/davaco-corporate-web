@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        
+        "target": "es2015",
+        "strict": true,
+        "alwaysStrict": true,
+        "strictNullChecks": true,        
+        "declaration": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": true,
+        "noImplicitAny": false,
+        "allowJs": false,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "preserveConstEnums": true,
+        "noImplicitUseStrict": false,
+        "pretty": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,        
+        "lib": ["es5", "es6", "dom"]        
+        
+    },
+    "exclude": [
+            "node_modules"
+        ],
+        "files": [
+            "gulpfile.ts"
+        ]
+}

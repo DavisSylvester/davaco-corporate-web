@@ -1,0 +1,28 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.RootDir = "./";
+exports.SrcDir = "./src";
+exports.TsRoot = "./src";
+exports.DestDir = "./dist/";
+exports.BuildDir = "./build/";
+exports.BundleDir = "./bundle";
+exports.AngularComponentsHtmlFiles = `${exports.TsRoot}/**/*.html`;
+exports.AngularComponentsLessFiles = `${exports.TsRoot}/**/*.less`;
+exports.AngularHtmlCopyTask = "AngularHtml.Copy";
+exports.AngularComponentLessTask = "AngularComponentLess";
+exports.AngularComponentLessCopyTask = "AngularComponentLess.Copy";
+exports.concatTask = "concat";
+exports.UmdTask = "umd";
+exports.BuildCopy = "BuildCopy";
+exports.WatchTask = "watch";
+exports.CleanBuildFolderTask = "cleanBuildFolder";
+exports.BuildTaskName = "build";
+exports.DefaultTaskName = "default";
+exports.LessTaskName = "less";
+exports.WatchTaskName = "watch";
+exports.AngularHTMLCopyTaskName = "AngularComponentHTMLCopy";
+exports.AngularLessCopyTaskName = "AngularComponentLessCopy";
+exports.BrowserSyncTaskName = "browserSync";
+exports.WebServerTaskName = "webserver";
+exports.CssBuildTaskName = "cssBuild";
+//# sourceMappingURL=constants.js.map
