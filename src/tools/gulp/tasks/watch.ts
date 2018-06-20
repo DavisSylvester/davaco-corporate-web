@@ -8,7 +8,7 @@ import { ApplicationConfiguration } from "../configuration/applicationConfigurat
 task(WatchTaskName, [], () => {
     watch([
         ApplicationConfiguration.Application.Settings.Source.LessFiles,
-        "./src/**/*.less",
+        "./src/assets/less/includes/**/*.less",
         "./app/**/*.css"], 
         [ LessTaskName ], () => {
         browserSync.reload();

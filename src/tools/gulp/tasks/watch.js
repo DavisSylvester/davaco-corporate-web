@@ -7,7 +7,7 @@ const applicationConfiguration_1 = require("../configuration/applicationConfigur
 gulp_1.task(constants_1.WatchTaskName, [], () => {
     gulp_1.watch([
         applicationConfiguration_1.ApplicationConfiguration.Application.Settings.Source.LessFiles,
-        "./src/**/*.less",        
+        "./src/assets/less/includes/**/*.less",        
         "./app/**/*.css"], [constants_1.LessTaskName], () => {
         browserSync.reload();
         console.log(`Browser Sync reload!`);

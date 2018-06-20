@@ -1,0 +1,88 @@
+@import "./colors.less";
+@import "./color-variables.less";
+@import "./hero-variables.less";
+
+.section-general {
+    
+    // max-height: @heroSectionHeight;
+    max-height: 100%;
+    width: auto;
+}
+
+.hero-section {
+    height: @heroSectionHeight;
+     .section-general();
+    
+
+    
+
+}
+
+.section {
+    .section-general();
+}
+
+
+.info-section {
+    background: @darkGray;
+}
+
+
+.info-section {
+    background: @darkGray;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 4%;
+    // height: 500px !important;
+    // max-height: auto !important;
+    height: unset;
+    max-height: unset;
+    
+}
+
+.info-section p {
+    margin: 0;
+    margin-top: .75%;
+    
+     
+}
+
+.info-section > .sub-title {
+.primaryBold();
+}
+
+.info-section > .sub-text {
+    font-family: @primaryBoldFont;
+    font-weight: 300;
+    font-size: 1rem;
+    
+}
+
+.info-section > div.info-button {
+
+    margin-top: 1.3%;
+    border: 1px solid @darkGray;
+    font-family: @primaryBoldFont;
+    text-transform: uppercase;
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: 15px 32px;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.more-info-section {
+    background: #fff;
+    height: 100px;
+    
+}
+
+
+.hero-section > img {
+    height: 100%;
+    max-height: auto;
+    width: 100%;
+}
+
+

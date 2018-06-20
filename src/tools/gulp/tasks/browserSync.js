@@ -15,6 +15,7 @@ gulp_1.task(constants_1.BrowserSyncTaskName, () => {
             "app/assets/**/*.css",
             "src/assets/ts/**/*.html",
             "src/assets/ts/**/*.less",
+            "src/assets/less/includes/**/*.less",
             applicationConfiguration_1.ApplicationConfiguration.Application.Settings.Source.LessFiles,
             applicationConfiguration_1.ApplicationConfiguration.Application.Settings.ApplicationDestination.CssFiles
         ]
