@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300');
 .gridGeneral {
   position: relative;
   display: -webkit-box;
@@ -79,7 +79,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   max-width: 18%;
-  padding: 2% 8.33%;
+  padding: 2% 5.33%;
 }
 #logo-container > img {
   width: 267px;

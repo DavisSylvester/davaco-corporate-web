@@ -1,28 +1,12 @@
-<div class="sf-container-stack sf-expand">
-    <div id="navigation" class="sf-container-stack">
-        <header>
-            <div class="sf-container">
-                <div id="logo-container">
-                    <img src="assets/images/davacoLogo.png" >
-                </div>
+<div class="sf-container-stack sf-expand">    
 
-                <div id="menu-container">
-                    <ul class="sf-container">
-                        <li>About Us</li>
-                        <li>Our Differences</li>
-                        <li>Industries</li>
-                        <li>Services</li>
-                        <li>Contact Us</li>                        
-                    </ul>
-
-                    <div id="login-container" class="sf-container">
-                        <span>Client Login</span>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-    </div>
+    <!-- ANGULAR NAVIGATION COMPONENT -->
+    <dav-navigation 
+        class="sf-container-stack"
+        [logo]="'assets/images/davacoLogo.png'"
+        [menu-items]="'Menu 1, Menu 2, Menu 3, Menu 4'">
+        <!-- [menu-items]="'About Us,Our Differences,Industries,Services,Contact Us'"> -->
+    </dav-navigation>
 
 
     <div id="main-content" class="sf-container-stack">MAIN CONTENT

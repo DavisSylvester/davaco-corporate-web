@@ -1,4 +1,4 @@
-System.register(["./MainComponent", "./NotFound"], function (exports_1, context_1) {
+System.register(["./MainComponent", "./NotFound", "./Navigation"], function (exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     return {
@@ -11,6 +11,11 @@ System.register(["./MainComponent", "./NotFound"], function (exports_1, context_
             function (NotFound_1_1) {
                 exports_1({
                     "NotFound": NotFound_1_1["NotFound"]
+                });
+            },
+            function (Navigation_1_1) {
+                exports_1({
+                    "Navigation": Navigation_1_1["Navigation"]
                 });
             }
         ],
