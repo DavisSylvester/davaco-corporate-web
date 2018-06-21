@@ -43,6 +43,16 @@
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
+.white-bg {
+  background: #fff !important;
+}
+.white {
+  color: #fff;
+}
+@font-face {
+  font-family: 'Century Gothic';
+  src: url("../fonts/centuryGothic.ttf");
+}
 .section-general {
   max-height: 100%;
   width: auto;
@@ -63,7 +73,7 @@
   background: #343434;
   color: #FFF;
   text-align: center;
-  padding-bottom: 4%;
+  padding-bottom: 2.8%;
   height: unset;
   max-height: unset;
 }
@@ -72,9 +82,8 @@
   margin-top: .75%;
 }
 .info-section > .sub-title {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
+  font-family: 'Century Gothic';
+  font-size: 2.4rem;
   text-transform: uppercase;
 }
 .info-section > .sub-text {
@@ -82,6 +91,7 @@
   font-weight: 300;
   font-size: 1rem;
 }
+.div.info-button,
 .info-section > div.info-button {
   margin-top: 1.3%;
   border: 1px solid #343434;
@@ -97,20 +107,50 @@
 }
 .more-info-section {
   background: #fff;
-  height: 100px;
+  margin: 12%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .hero-section > img {
   height: 100%;
   max-height: auto;
   width: 100%;
 }
+.card-box {
+  width: 600px;
+  -webkit-box-shadow: 1px 1px 1px 1px #cdcdcd;
+          box-shadow: 1px 1px 1px 1px #cdcdcd;
+}
+.card-box > p {
+  text-align: center;
+}
+.card-box > img {
+  justify-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.bg-info-section {
+  height: 380px;
+  background: url("../images/banner02.jpg");
+  background-size: 100% 100%;
+}
+.bg-info-section1 .image1 {
+  border: 2px dotted hotpink;
+  width: 50%;
+}
+.bg-info-section1 .image2 {
+  border: 2px dotted navy;
+  width: 50%;
+}
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   max-width: 100vw;
-  max-height: 100vh;
   max-width: 1920px;
-  max-height: 1080px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

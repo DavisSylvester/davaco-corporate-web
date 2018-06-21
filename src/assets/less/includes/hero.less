@@ -32,7 +32,7 @@
     background: @darkGray;
     color: #FFF;
     text-align: center;
-    padding-bottom: 4%;
+    padding-bottom: 2.8%;
     // height: 500px !important;
     // max-height: auto !important;
     height: unset;
@@ -48,7 +48,12 @@
 }
 
 .info-section > .sub-title {
-.primaryBold();
+// .primaryBold();
+    font-family: 'Century Gothic';
+    font-size: 2.4rem;
+    // font-weight: 600;
+    text-transform: uppercase;
+
 }
 
 .info-section > .sub-text {
@@ -58,6 +63,7 @@
     
 }
 
+.div.info-button,
 .info-section > div.info-button {
 
     margin-top: 1.3%;
@@ -74,7 +80,9 @@
 
 .more-info-section {
     background: #fff;
-    height: 100px;
+    margin: 12%;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -83,6 +91,38 @@
     height: 100%;
     max-height: auto;
     width: 100%;
+
 }
 
 
+.card-box {
+    width: 600px;    
+    box-shadow: 1px 1px 1px 1px #cdcdcd;
+
+}
+
+.card-box > p {
+    text-align: center;
+    
+}
+
+.card-box > img {
+    justify-self: center;
+    align-self: center;
+}
+
+.bg-info-section {
+    height: 380px;
+    background: url("../images/banner02.jpg");
+    background-size: 100% 100%;
+}
+
+.bg-info-section1 .image1 {
+    border: 2px dotted hotpink;
+    width: 50%;
+}
+
+.bg-info-section1 .image2 {
+    border: 2px dotted navy;
+    width: 50%;
+}
