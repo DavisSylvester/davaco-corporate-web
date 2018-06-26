@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit } from "@angular/core";
+import { Component, OnInit, AfterViewInit, HostListener } from "@angular/core";
 import { RouterModule } from "@angular/router";
 
 
@@ -14,6 +14,12 @@ import { RouterModule } from "@angular/router";
 
 
 export class MainComponent implements OnInit, AfterViewInit {
+
+@HostListener('scroll')
+public onscroll(): void {
+    window.alert("Scrpp;");
+    console.log(`Scroll event fired`);
+  }
 
 
     public Title = "Main Component Title";
@@ -39,6 +45,12 @@ export class MainComponent implements OnInit, AfterViewInit {
 
 
 
+
+    }
+
+    public onScroll(evt: Event): void {
+        console.log(`evt:n${evt}`);
+        console.log(`Scroll event fired`);
 
     }
 

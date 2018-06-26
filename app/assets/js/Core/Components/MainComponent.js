@@ -26,11 +26,25 @@ System.register(["@angular/core", "@angular/router"], function (exports_1, conte
                     this.Title = "Main Component Title";
                     console.log("Starting Main Component");
                 }
+                onscroll() {
+                    window.alert("Scrpp;");
+                    console.log(`Scroll event fired`);
+                }
                 ngOnInit() {
                 }
                 ngAfterViewInit() {
                 }
+                onScroll(evt) {
+                    console.log(`evt:n${evt}`);
+                    console.log(`Scroll event fired`);
+                }
             };
+            __decorate([
+                core_1.HostListener('scroll'),
+                __metadata("design:type", Function),
+                __metadata("design:paramtypes", []),
+                __metadata("design:returntype", void 0)
+            ], MainComponent.prototype, "onscroll", null);
             MainComponent = __decorate([
                 core_1.Component({
                     selector: "main-app",

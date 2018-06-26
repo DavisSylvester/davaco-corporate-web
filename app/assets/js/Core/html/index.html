@@ -1,4 +1,4 @@
-<div class="sf-container-stack sf-expand">
+<div class="sf-container-stack sf-expand" (scroll)="onScroll($event)">
     <div id="navigation" class="sf-container-stack">
         <header>
             <div class="sf-container">
@@ -66,6 +66,8 @@
             </div>
         </div>
 
+        <!--  Ability to Manage -->
+        <!--
         <div class="sf-container-stack bg-info-section" style="justify-content: center;">
             <div class="sf-container-stack" style="border: 2px solid #343434;margin: 3% 12.5%; justify-content: center;align-content: center;">
                 <p style="font-size: 3rem;text-align: center;font-family:'Century Gothic'">ABILITY TO MANAGE AND EXECUTE HIGH
@@ -73,13 +75,9 @@
                 </p>
             </div>
         </div>
+-->
 
-        <div class="sf-container-stack section info-section white-bg">
-            <img src="assets/images/deliveryicon.png" style="height: 88px; width: 108px;align-self: center;margin-top: 4.5%;margin-bottom: 1.5%;">
-            <p class="sub-title" style="color: #000">WE DELIVER QUALITY, CONSISTENCY AND SPEED</p>
-            <p class="sub-text" style="color: #000">We provide the care our Clients need to complete the task.</p>
-        </div>
-
+        <!-- Single point of contact -->
         <div class="sf-container-stack hero-section hero2 center-center">
             <p class="hero-title" style="color: #FFF; font-weight: 600;">
                 Single point of contact, with dedicated team
@@ -87,6 +85,31 @@
             </p>
         </div>
 
+        <!-- WE DELIVER QUALITY -->
+        <div class="sf-container-stack section info-section white-bg">
+            <img src="assets/images/deliveryicon.png" style="height: 88px; width: 108px;align-self: center;margin-top: 4.5%;margin-bottom: 1.5%;">
+            <p class="sub-title" style="color: #000">WE DELIVER QUALITY, CONSISTENCY AND SPEED</p>
+            <p class="sub-text" style="color: #000">We provide the care our Clients need to complete the task.</p>
+
+            <div class="sf-container" style="flex-wrap: wrap;justify-content: space-around;">
+                <div class="sf-container-stack center-center" style="width:20%; border: 1px solid #343434;flex-basis: 20% !important;">
+                    <img src="assets/images/retailiconblueandgray.png" style="width: 44%; height: 42%;">
+                    
+                    <div class="sf-container-stack" style="border-top: 1px solid #cdcdcd;color: #343434;margin-top: 9%;">
+                        <span style="font-family: 'Segoe UI';font-size: 1.6rem;font-weight: 600;margin-top: 12%; margin-bottom: 2%;">Retail</span>
+                        <p style="text-align: center; font-family: 'Segoe UI';font-size: 1rem;font-weight: 300;">
+                            Proving solutions for <br>
+                            Brand initiatives across<br>
+                            North America.
+                        </p>
+                        <div style="font-family: 'Segoe UI';font-size: 1rem;font-weight: 600;margin-top: 8%;margin-bottom: 4%;"> MORE INFO >></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>        
+
+        <!-- satification guaranteed -->
         <div class="sf-container bg-info-section1 light-background" style="background: #e7ebf1;">
             <div class="image1 sf-container-stack center-center" style="width: 60%;margin-top: 4%;margin-right: 8%;align-self: center;margin-bottom: 4%;">
 
@@ -105,7 +128,7 @@
 
             <div class="image1 sf-container-stack center-center" style="margin-bottom: 4%">
 
-                <div class="sf-container center-center" style="width: 60%;margin-top: 4%;">
+                <div class="sf-container center-center" style="width: 60%;margin-top: 4%;flex-grow: 0;">
                     <img src="assets/images/clearthread_logo.jpg" style="height: 100%;width: 100%;">
                 </div>
 
@@ -120,6 +143,7 @@
 
     </div>
 
+    <!--  FOOTER -->
     <div id="footer" class="sf-container" style="padding: 5% 2%;">
         <!-- 1st Container -->
         <div class="sf-container" style="width: 50%;justify-content: space-around;">
