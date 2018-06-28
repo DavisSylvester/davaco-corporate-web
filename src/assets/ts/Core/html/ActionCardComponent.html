@@ -2,7 +2,9 @@
         <img src="{{ cardIcon }}" class="card-image">
 
         <div class="sf-container-stack card-divider" >
-                <span class="card-header-text">{{ cardTitle }}</span>
+                <span 
+                        class="card-header-text"
+                        [ngClass]="{'reduce-sub-text' : hasLongSubText }">{{ cardTitle }}</span>            
                 <p class="card-sub-text">
                         <ng-content></ng-content>
                 </p>

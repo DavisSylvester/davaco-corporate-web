@@ -17,7 +17,7 @@ export class MainComponent implements OnInit, AfterViewInit {
 
 @HostListener('window:scroll')
 public onscroll(): void {
-    console.log(window.pageYOffset);
+    // console.log(window.pageYOffset);
 
     if (window.pageYOffset > 95) {
         this.navIsFixed = true;

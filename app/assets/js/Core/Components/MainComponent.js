@@ -28,7 +28,6 @@ System.register(["@angular/core", "@angular/router"], function (exports_1, conte
                     console.log("Starting Main Component");
                 }
                 onscroll() {
-                    console.log(window.pageYOffset);
                     if (window.pageYOffset > 95) {
                         this.navIsFixed = true;
                     }

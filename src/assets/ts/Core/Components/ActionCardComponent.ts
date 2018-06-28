@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from "@angular/core";
+import { Component, OnInit, Input, AfterViewInit } from "@angular/core";
 
 
 
@@ -15,15 +15,16 @@ import { Component, OnInit, Input } from "@angular/core";
 })
 
 
-export class ActionCardComponent implements OnInit  {
+export class ActionCardComponent implements OnInit, AfterViewInit  {
 
     // Properties and Fields
     @Input('card-title') public cardTitle = "";
     @Input('card-icon') public cardIcon = "";
     @Input('card-bg') public cardBackground = "#fff";
     
+    public hasLongSubText = false;
+    private maxSubTitleLength = 10;
 
-    
     constructor() {
 
         this.Init();
@@ -36,6 +37,14 @@ export class ActionCardComponent implements OnInit  {
 
     public ngOnInit(): void {
 
+    }
+
+    public ngAfterViewInit(): void {
+        console.log(`cardTitle: ${this.cardTitle.length}`);
+
+        this.hasLongSubText = (this.cardTitle.length > this.maxSubTitleLength) ? true : false;
+
+        console.log(`hasLongSubText:  ${this.hasLongSubText}`);
     }
 
     

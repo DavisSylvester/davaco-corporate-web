@@ -23,11 +23,18 @@ System.register(["@angular/core"], function (exports_1, context_1) {
                     this.cardTitle = "";
                     this.cardIcon = "";
                     this.cardBackground = "#fff";
+                    this.hasLongSubText = false;
+                    this.maxSubTitleLength = 10;
                     this.Init();
                 }
                 Init() {
                 }
                 ngOnInit() {
+                }
+                ngAfterViewInit() {
+                    console.log(`cardTitle: ${this.cardTitle.length}`);
+                    this.hasLongSubText = (this.cardTitle.length > this.maxSubTitleLength) ? true : false;
+                    console.log(`hasLongSubText:  ${this.hasLongSubText}`);
                 }
             };
             __decorate([
