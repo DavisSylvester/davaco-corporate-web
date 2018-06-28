@@ -220,8 +220,11 @@ header {
   left: 0;
   z-index: 9994;
   height: 95px;
+  background: seashell;
   -webkit-animation: smoothScroll 1s forwards;
           animation: smoothScroll 1s forwards;
+  color: #000;
+  border-bottom: 2px solid #cdcdcd;
 }
 #footer {
   background: #343434;
