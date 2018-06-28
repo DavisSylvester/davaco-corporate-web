@@ -50,7 +50,8 @@ System.register(["@angular/core", "@angular/platform-browser", "@angular/platfor
                         http_2.HttpClientModule,
                     ],
                     declarations: [
-                        index_1.MainComponent, index_1.NotFound, index_1.ActionCardComponent
+                        index_1.MainComponent, index_1.NotFound, index_1.ActionCardComponent,
+                        index_1.Navigation
                     ],
                     entryComponents: [],
                     bootstrap: [index_1.MainComponent],

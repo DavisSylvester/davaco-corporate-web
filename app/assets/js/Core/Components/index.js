@@ -1,4 +1,4 @@
-System.register(["./MainComponent", "./NotFound", "./ActionCardComponent"], function (exports_1, context_1) {
+System.register(["./MainComponent", "./NotFound", "./ActionCardComponent", "./Navigation"], function (exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     return {
@@ -16,6 +16,11 @@ System.register(["./MainComponent", "./NotFound", "./ActionCardComponent"], func
             function (ActionCardComponent_1_1) {
                 exports_1({
                     "ActionCardComponent": ActionCardComponent_1_1["ActionCardComponent"]
+                });
+            },
+            function (Navigation_1_1) {
+                exports_1({
+                    "Navigation": Navigation_1_1["Navigation"]
                 });
             }
         ],

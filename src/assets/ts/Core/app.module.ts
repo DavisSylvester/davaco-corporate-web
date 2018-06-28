@@ -4,11 +4,8 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { HttpModule } from "@angular/http";
 import { HttpClientModule } from "@angular/common/http";
-<<<<<<< HEAD
-import { MainComponent, NotFound, ActionCardComponent }   from "./Components/index";
-=======
-import { MainComponent, NotFound, Navigation }   from "./Components/index";
->>>>>>> feature/Convert_header_to_Angular_Component
+import { MainComponent, NotFound, Navigation,  ActionCardComponent }   from "./Components/index";
+
 import { routing } from "./routes/app.routes";
 
 
@@ -28,11 +25,9 @@ import { routing } from "./routes/app.routes";
     
      ],
   declarations: [
-<<<<<<< HEAD
-                  MainComponent, NotFound, ActionCardComponent
-=======
-                  MainComponent, NotFound, Navigation
->>>>>>> feature/Convert_header_to_Angular_Component
+
+                  MainComponent, NotFound, ActionCardComponent,
+                  Navigation
                 ],
   entryComponents: 
                 [
