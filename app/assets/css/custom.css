@@ -237,7 +237,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   max-width: 18%;
-  padding: 2% 8.33%;
+  padding: 2% 5.33%;
 }
 #logo-container > img {
   width: 235px;

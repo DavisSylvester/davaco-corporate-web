@@ -1,0 +1,22 @@
+<div id="navigation" class="sf-container-stack">
+        <header>
+                <div class="sf-container">
+                        <div id="logo-container">
+                                <img src={{logo}}>
+                        </div>
+
+                        <div id="menu-container">
+                                <ul class="sf-container">
+                                        <li 
+                                                *ngFor="let item of menuItemsConverted"
+                                                (click)="onMenuItemClicked(item)">{{ item }}</li>                                        
+                                </ul>
+
+                                <div id="login-container" class="sf-container">
+                                        <span>Client Login</span>
+                                </div>
+                        </div>
+                </div>
+        </header>
+
+</div>
