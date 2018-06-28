@@ -1,5 +1,5 @@
-<div class="sf-container-stack sf-expand" (scroll)="onScroll($event)">
-    <div id="navigation" class="sf-container-stack">
+<div class="sf-container-stack sf-expand" >
+    <div id="navigation" class="sf-container-stack" [class.fixed]="navIsFixed">
         <header>
             <div class="sf-container">
                 <div id="logo-container">
@@ -109,7 +109,9 @@
 -->
 
                 <div class="sf-container" style="width: 65%; flex-wrap: wrap;">
-                    <sf-action-card class="card-box" [card-title]="'Retail'"  [card-icon]="'assets/images/retailiconblueandgray.png'">
+                    <sf-action-card class="card-box" 
+                        [card-title]="'Retail'"  
+                        [card-icon]="'assets/images/retailiconblueandgray.png'">
                         Proving solutions for
                         <br> Brand initiatives across
                         <br> North America.

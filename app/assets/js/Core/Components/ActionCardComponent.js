@@ -22,6 +22,7 @@ System.register(["@angular/core"], function (exports_1, context_1) {
                 constructor() {
                     this.cardTitle = "";
                     this.cardIcon = "";
+                    this.cardBackground = "#fff";
                     this.Init();
                 }
                 Init() {
@@ -37,6 +38,10 @@ System.register(["@angular/core"], function (exports_1, context_1) {
                 core_1.Input('card-icon'),
                 __metadata("design:type", Object)
             ], ActionCardComponent.prototype, "cardIcon", void 0);
+            __decorate([
+                core_1.Input('card-bg'),
+                __metadata("design:type", Object)
+            ], ActionCardComponent.prototype, "cardBackground", void 0);
             ActionCardComponent = __decorate([
                 core_1.Component({
                     selector: "sf-action-card",

@@ -15,15 +15,24 @@ import { RouterModule } from "@angular/router";
 
 export class MainComponent implements OnInit, AfterViewInit {
 
-@HostListener('scroll')
+@HostListener('window:scroll')
 public onscroll(): void {
-    window.alert("Scrpp;");
-    console.log(`Scroll event fired`);
+    console.log(window.pageYOffset);
+
+    if (window.pageYOffset > 95) {
+        this.navIsFixed = true;
+    }
+    else {
+        this.navIsFixed = false;
+    }
+    
+
   }
 
+  
 
     public Title = "Main Component Title";
-
+    public navIsFixed = false;
 
 
     constructor() {

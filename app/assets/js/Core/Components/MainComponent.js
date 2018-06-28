@@ -24,11 +24,17 @@ System.register(["@angular/core", "@angular/router"], function (exports_1, conte
             MainComponent = class MainComponent {
                 constructor() {
                     this.Title = "Main Component Title";
+                    this.navIsFixed = false;
                     console.log("Starting Main Component");
                 }
                 onscroll() {
-                    window.alert("Scrpp;");
-                    console.log(`Scroll event fired`);
+                    console.log(window.pageYOffset);
+                    if (window.pageYOffset > 95) {
+                        this.navIsFixed = true;
+                    }
+                    else {
+                        this.navIsFixed = false;
+                    }
                 }
                 ngOnInit() {
                 }
@@ -40,7 +46,7 @@ System.register(["@angular/core", "@angular/router"], function (exports_1, conte
                 }
             };
             __decorate([
-                core_1.HostListener('scroll'),
+                core_1.HostListener('window:scroll'),
                 __metadata("design:type", Function),
                 __metadata("design:paramtypes", []),
                 __metadata("design:returntype", void 0)

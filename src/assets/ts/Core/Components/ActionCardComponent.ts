@@ -20,6 +20,7 @@ export class ActionCardComponent implements OnInit  {
     // Properties and Fields
     @Input('card-title') public cardTitle = "";
     @Input('card-icon') public cardIcon = "";
+    @Input('card-bg') public cardBackground = "#fff";
     
 
     
