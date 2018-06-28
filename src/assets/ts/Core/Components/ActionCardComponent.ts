@@ -23,7 +23,7 @@ export class ActionCardComponent implements OnInit, AfterViewInit  {
     @Input('card-bg') public cardBackground = "#fff";
     
     public hasLongSubText = false;
-    private maxSubTitleLength = 10;
+    private maxSubTitleLength = 11;
 
     constructor() {
 

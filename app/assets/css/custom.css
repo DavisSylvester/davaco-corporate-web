@@ -40,8 +40,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
 }
 .white-bg {
   background: #fff !important;
@@ -62,7 +60,6 @@
   width: auto;
 }
 .hero-section {
-  height: 350px;
   max-height: 100%;
   width: auto;
 }
@@ -144,7 +141,7 @@ div.info-button,
       align-self: center;
 }
 .bg-info-section {
-  height: 380px;
+  height: 35.1%;
   background: url("../images/banner02.jpg");
   background-size: 100% 100%;
 }
@@ -155,7 +152,7 @@ div.info-button,
   width: 50%;
 }
 .hero2 {
-  height: 500px;
+  height: 46.29%;
   background: url("../images/coffee_read_newspaper.jpg");
   background-size: 100% 100%;
 }
@@ -181,7 +178,6 @@ body {
           flex-direction: column;
   padding: 0;
   margin: 0;
-  border: 1px solid red;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 14px;
 }

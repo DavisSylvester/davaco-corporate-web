@@ -5,14 +5,11 @@
 body {
     box-sizing: border-box;
     max-width: 100vw;
-    // max-height: 100vh; 
     max-width: @sreenSizeWidth;
-    // max-height: @sreenSizeHeight;   
     display: flex; 
     flex-direction: column;
     padding: 0;
     margin: 0;
-    border: 1px solid red;
     font-family:  @primaryFont;
     font-size: 14px;
   }
@@ -54,15 +51,12 @@ body {
     border-bottom: 2px solid #cdcdcd;
   }
   
-  #footer {
-    // height: 200px;
+  #footer {    
     background: #343434;
-
   }
 
   #main-content {
     flex-grow: 1;    
-    
   }
 
   #logo-container {
@@ -79,9 +73,7 @@ body {
   #menu-container {
     flex-grow: 1;
     color: @primaryTextColor;
-
     display: flex;
-
   }
 
   #menu-container > ul {

@@ -24,7 +24,7 @@ System.register(["@angular/core"], function (exports_1, context_1) {
                     this.cardIcon = "";
                     this.cardBackground = "#fff";
                     this.hasLongSubText = false;
-                    this.maxSubTitleLength = 10;
+                    this.maxSubTitleLength = 11;
                     this.Init();
                 }
                 Init() {
