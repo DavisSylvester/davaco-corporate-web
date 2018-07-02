@@ -1,18 +1,25 @@
-
-<div class="sf-container-stack sf-expand">    
+<div class="sf-container-stack sf-expand">
 
     <!-- ANGULAR NAVIGATION COMPONENT -->
-    <dav-navigation 
-        class="sf-container-stack"
-        [logo]="'assets/images/davacoLogo.png'"        
-        [menu-items]="'About Us,Our Differences,Industries,Services,Contact Us'">
+    <dav-navigation class="sf-container-stack" [logo]="'assets/images/davacoLogo.png'" [menu-items]="'About Us,Our Differences,Industries,Services,Contact Us'">
         <!-- [menu-items]="'Menu 1, Menu 2, Menu 3, Menu 4'"> -->
     </dav-navigation>
 
     <div id="main-content" class="sf-container-stack">
         <!-- <router-outlet></router-outlet> -->
-        <div class="hero-section">
-            <img src="assets/images/HomePageTopBanner.png">
+        <div class="hero-section hero-bg-banner" style="height: 600px;position: relative;">
+            <div class="sf-container-stack" style="position: absolute; height: 300px; width: 100%; 
+            background: rgba(0, 0, 0, .5); top: 150px;">
+                <p style="font-size: 2.5rem;color: #fff; text-align: center; text-transform: uppercase;
+                font-family: 'Century Gothic';margin: 0;margin-top: 3%;">Davaco provides a total Solution to execute
+                    <br> change for global brands</p>
+                <p style="font-size: 1.4rem;font-family: 'Open Sans';color: #FFF;
+                 text-align: center;margin: 0;font-weight: 300;">Let us provide the solution to your business needs.</p>
+
+                 <div class="info-button">
+                    Our Services
+                </div>
+            </div>
         </div>
 
         <div class="sf-container-stack section info-section info-section-bottom-pad">
@@ -75,11 +82,9 @@
             <p class="sub-title" style="color: #000">WE DELIVER QUALITY, CONSISTENCY AND SPEED</p>
             <p class="sub-text" style="color: #000">We provide the care our Clients need to complete the task.</p>
 
-            <div class="sf-container" style="flex-wrap: wrap;justify-content: space-evenly; margin-top: 4.5%">               
+            <div class="sf-container" style="flex-wrap: wrap;justify-content: space-evenly; margin-top: 4.5%">
                 <div class="sf-container info-section-bottom-pad" style="width: 65%; flex-wrap: wrap;">
-                    <sf-action-card class="card-box" 
-                        [card-title]="'Retail'"  
-                        [card-icon]="'assets/images/retailiconblueandgray.png'">
+                    <sf-action-card class="card-box" [card-title]="'Retail'" [card-icon]="'assets/images/retailiconblueandgray.png'">
                         Proving solutions for
                         <br> Brand initiatives across
                         <br> North America.
@@ -92,24 +97,24 @@
                     </sf-action-card>
 
                     <sf-action-card class="card-box" [card-title]="'Restaurant'" [card-icon]="'assets/images/restauranticonblueandgray.png'">
-                       Serving solutions that 
+                        Serving solutions that
                         <br> satisfy Restaurant Brands.
                     </sf-action-card>
 
                     <sf-action-card class="card-box" [card-title]="'Hospitality'" [card-icon]="'assets/images/hospitalityiconblueandgray.png'">
-                    Providing solutions for
+                        Providing solutions for
                         <br> Brand initiatives across
                         <br> North America.
                     </sf-action-card>
 
                     <sf-action-card class="card-box" [card-title]="'Healthcare'" [card-icon]="'assets/images/healthcareiconblueandgray.png'">
                         Total solutions that won’t
-                            <br> test your patients.
+                        <br> test your patients.
                     </sf-action-card>
 
                     <sf-action-card class="card-box" [card-title]="'Financial'" [card-icon]="'assets/images/financeiconblueandgray.png'">
-                        You can bank on DAVACO's 
-                            <br> comprehensive service offering.
+                        You can bank on DAVACO's
+                        <br> comprehensive service offering.
                     </sf-action-card>
 
                     <sf-action-card class="card-box" [card-title]="'Automotive'" [card-icon]="'assets/images/automotiveiconblueandgray.png'">
@@ -118,7 +123,7 @@
 
                     <sf-action-card class="card-box" [card-title]="'Grocery /\nConvenience'" [card-icon]="'assets/images/groceriesiconblueandgray.png'">
                         Super solutions for
-                            <br> your supermarkets!
+                        <br> your supermarkets!
                     </sf-action-card>
                 </div>
             </div>
