@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:300,400,600,800|Oswald:300,400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:300,400,600,800|Oswald:300,400|Quattrocento+Sans:400,700');
 .primaryBold {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
@@ -47,14 +47,6 @@
 .white {
   color: #fff;
 }
-@font-face {
-  font-family: 'Century Gothic';
-  src: url("../fonts/centuryGothic.ttf");
-}
-@font-face {
-  font-family: 'Segoe';
-  src: url("../fonts/SegoeUI.ttf");
-}
 .section-general {
   max-height: 100%;
   width: auto;
@@ -86,9 +78,9 @@
 }
 .hero-title,
 .info-section > .sub-title {
-  font-family: 'Century Gothic';
-  font-size: 2.5rem;
-  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 .info-section > .sub-text {
   font-family: 'Open Sans', sans-serif;
@@ -125,7 +117,7 @@ div.info-button,
   width: 100%;
 }
 .card-box {
-  width: 80%;
+  width: 60%;
   -webkit-box-shadow: 1px 1px 1px 1px #cdcdcd;
           box-shadow: 1px 1px 1px 1px #cdcdcd;
   font-family: 'Open Sans';
@@ -152,7 +144,7 @@ div.info-button,
   width: 50%;
 }
 .hero2 {
-  height: 46.29%;
+  height: 400px;
   background: url("../images/coffee_read_newspaper.jpg");
   background-size: 100% 100%;
 }
@@ -178,7 +170,7 @@ body {
           flex-direction: column;
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans';
   font-size: 14px;
 }
 header {
