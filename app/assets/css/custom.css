@@ -76,10 +76,11 @@
 .info-section-bottom-pad {
   padding-bottom: 2.8%;
 }
+.sub-title,
 .hero-title,
 .info-section > .sub-title {
   font-family: 'Open Sans';
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 .info-section > .sub-text {
@@ -117,11 +118,12 @@ div.info-button,
   width: 100%;
 }
 .card-box {
-  width: 60%;
+  width: 61%;
   -webkit-box-shadow: 1px 1px 1px 1px #cdcdcd;
           box-shadow: 1px 1px 1px 1px #cdcdcd;
   font-family: 'Open Sans';
   font-size: 1rem;
+  margin-left: 2%;
 }
 .card-box > p {
   text-align: center;
@@ -144,7 +146,7 @@ div.info-button,
   width: 50%;
 }
 .hero2 {
-  height: 400px;
+  height: 480px;
   background: url("../images/coffee_read_newspaper.jpg");
   background-size: 100% 100%;
 }
@@ -269,7 +271,6 @@ header {
   text-transform: uppercase;
   font-size: .9rem;
   font-family: 'Open Sans', sans-serif;
-  margin-right: 2%;
 }
 #login-container {
   padding-right: 8.33%;
@@ -287,15 +288,15 @@ header {
   border: 1px solid #343434;
 }
 .fulliment-info-button {
-  margin-top: 18%;
   margin-bottom: 4%;
-  padding: 8% 25%;
-  font-family: 'Segoe';
+  padding: 6% 18%;
+  font-family: 'Open Sans';
   background: #FFF;
   color: #000;
   text-transform: uppercase;
   -webkit-box-shadow: 0px 0px 0px 2px #cdcdcd;
           box-shadow: 0px 0px 0px 2px #cdcdcd;
+  float: right;
 }
 .sf-box-shadow {
   -webkit-box-shadow: 0px 0px 0px 2px #cdcdcd;
