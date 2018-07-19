@@ -34,6 +34,9 @@
   font-weight: 600;
   margin-top: 8%;
   margin-bottom: 4%;
+  border: 1px solid orange;
+  color: orange;
+  justify-self: flex-end;
 }
 .reduce-sub-text {
   font-size: 1.2rem;

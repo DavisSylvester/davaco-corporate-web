@@ -118,11 +118,11 @@ div.info-button,
   width: 100%;
 }
 .card-box {
-  width: 61%;
+  width: 55%;
   -webkit-box-shadow: 1px 1px 1px 1px #cdcdcd;
           box-shadow: 1px 1px 1px 1px #cdcdcd;
   font-family: 'Open Sans';
-  font-size: 1rem;
+  font-size: .8rem;
   margin-left: 2%;
 }
 .card-box > p {
